@@ -19,4 +19,17 @@ float float2 = float.Parse(Console.ReadLine());
 float multi = float1 * float2;
 Console.WriteLine($"La multiplicacion de {float1} y {float2} es: {multi}");
 
+Console.WriteLine("Ingrese el primer número entero:");
+int num1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el segundo número entero:");
+int num2 = int.Parse(Console.ReadLine());
+decimal division = num1 / num2;
+Console.WriteLine($"La suma de {num1} y {num2} es: {division}");
+
+Console.WriteLine("Ingrese el primer número entero:");
+int entero1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el segundo número entero:");
+int entero2 = int.Parse(Console.ReadLine());
+int modulo = entero1 % entero2;
+Console.WriteLine($"El módulo de {entero1} entre {entero2} es: {modulo}");
 
